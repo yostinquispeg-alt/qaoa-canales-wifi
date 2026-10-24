@@ -1,0 +1,30 @@
+RED = {
+    "RADIO_INTERFERENCIA": 4.5,
+    "PESO_MAXIMO": 5.0,
+    "RADIO_COMUNICACION": 4.5,
+    "COSTO_POR_METRO": 0.5,
+}
+
+QAOA = {
+    "REPS": 2,
+    "SHOTS": 4000,
+    "OPTIMIZADOR": "COBYLA",
+    "MAX_ITER": 300,
+    "SEMILLA": 7,
+}
+
+CLASICO = {
+    "MAX_ANTENAS_FUERZA_BRUTA": 20,
+    "REINICIOS": 20,
+    "SEMILLA": 0,
+}
+
+RUTAS = {
+    "ALPHA": 0.5,
+}
+
+ESTILO = {
+    "TAMANO_ANTENA": 520,
+    "TOP_HISTOGRAMA": 10,
+    "TAMANO_TABLERO": (14, 9),
+}
